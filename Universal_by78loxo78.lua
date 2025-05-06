@@ -113,7 +113,7 @@ local smoothing = 1
 local RunService = game:GetService("RunService")
 
 local FOVring = Drawing.new("Circle")
-FOVring.Visible = true
+FOVring.Visible = false
 FOVring.Thickness = 1.5
 FOVring.Radius = fov
 FOVring.Transparency = 1
